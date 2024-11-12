@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>YOU_PICK</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="avengers-endgame-by-ultraraw26-wallpaper-3440x1440-14744_15.jpg" />
+    <None Remove="chillis.jfif" />
+    <None Remove="Chipotle" />
+    <None Remove="olive gardenm.jfif" />
+    <None Remove="perkins.jfif" />
+    <None Remove="red lobster.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="avengers-endgame-by-ultraraw26-wallpaper-3440x1440-14744_15.jpg" />
+    <Resource Include="chillis.jfif" />
+    <Resource Include="Chipotle" />
+    <Resource Include="olive gardenm.jfif" />
+    <Resource Include="perkins.jfif" />
+    <Resource Include="red lobster.jfif" />
+  </ItemGroup>
+
+</Project>
