@@ -1,0 +1,1 @@
+I created this random restuarant generator to help my wife and I decide where to eat. This version only has a few options to prove the concept. The "You Pick" button will randomly select a page that displays the restaurant. If you both disagree on it, you do have the option to try again!
